@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Входой контроль</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <form class="form" id="form-send">
+      <h2 class="form__title">Задать вопрос</h2>
+      <input type="text" class="form__input" placeholder="Фамилия Имя Отчество *" pattern="^[А-Яа-яЁё\s]+$">
+      <input type="tel" class="form__input" placeholder="Телефон *" pattern="^[0-9-+\s]+$">
+      <input type="email" class="form__input"  placeholder="Email">
+      <input type="submit" class="form__button" value="ОТПРАВИТЬ ЗАПРОС">
+    </form>
+    <script src="index.js"></script>
+  </body>
+</html>
